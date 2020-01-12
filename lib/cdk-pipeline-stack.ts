@@ -6,7 +6,7 @@ export class CdkPipelineStack extends cdk.Stack {
     super(scope, id, props);
 
     const bucket = new s3.Bucket(this, 'bucket', {
-      bucketName: "dario-bucket",
+      bucketName: "dario-bucket-2",
       removalPolicy: cdk.RemovalPolicy.DESTROY
     });
   }
